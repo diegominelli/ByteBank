@@ -11,5 +11,9 @@ export class NovaTransferenciaComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  transferir() {
+    console.log('Solicitado nova transferência');
+    
+  }
 
 }
